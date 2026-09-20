@@ -51,33 +51,33 @@ The following enterprise platforms provide managed, AI-driven UEBA and ITDR secu
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source identity analytics engines allow security operations teams to deploy transparent detection logic, host custom ML models, and maintain data sovereignty without vendor lock-in. *Entries are sorted by GitHub star counts in descending order.*
+Open-source identity analytics engines allow security operations teams to deploy transparent detection logic, host custom ML models, and maintain data sovereignty without vendor lock-in. *Entries are sorted by GitHub Stars_Counts in descending order.*
 
-*   ### 🛡️ **[Azure Sentinel Detection & UEBA Rules](https://github.com/Azure/Azure-Sentinel)** [![GitHub stars](https://img.shields.io/github/stars/Azure/Azure-Sentinel?style=social&color=white)](https://github.com/Azure/Azure-Sentinel/stargazers)
+*   ### 🛡️ **[Azure Sentinel Detection & UEBA Rules](https://github.com/Azure/Azure-Sentinel)** [![GitHub_Stars](https://img.shields.io/github/stars/Azure/Azure-Sentinel?style=social&color=white)](https://github.com/Azure/Azure-Sentinel/stargazers)
     Official community repository containing detection rules, KQL queries, and UEBA anomaly analytics models for cloud identity monitoring.
 
-*   ### 🔑 **[Baton Identity Governance Toolkit](https://github.com/ConductorOne/baton)** [![GitHub stars](https://img.shields.io/github/stars/ConductorOne/baton?style=social&color=white)](https://github.com/ConductorOne/baton/stargazers)
+*   ### 🔑 **[Baton Identity Governance Toolkit](https://github.com/ConductorOne/baton)** [![GitHub_Stars](https://img.shields.io/github/stars/ConductorOne/baton?style=social&color=white)](https://github.com/ConductorOne/baton/stargazers)
     Open-source identity governance toolkit to extract, normalize, and audit user permissions, roles, and access paths across SaaS and IaaS infrastructure.
 
-*   ### 🏛️ **[Evolveum MidPoint](https://github.com/Evolveum/midpoint)** [![GitHub stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers)
+*   ### 🏛️ **[Evolveum MidPoint](https://github.com/Evolveum/midpoint)** [![GitHub_Stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers)
     Comprehensive open-source Identity Governance and Administration (IGA) system supporting automated user provisioning, identity synchronization, and compliance auditing.
 
-*   ### 🔬 **[OpenUBA Framework](https://github.com/GACWR/OpenUBA)** [![GitHub stars](https://img.shields.io/github/stars/GACWR/OpenUBA?style=social&color=white)](https://github.com/GACWR/OpenUBA/stargazers)
+*   ### 🔬 **[OpenUBA Framework](https://github.com/GACWR/OpenUBA)** [![GitHub_Stars](https://img.shields.io/github/stars/GACWR/OpenUBA?style=social&color=white)](https://github.com/GACWR/OpenUBA/stargazers)
     Modular UEBA framework featuring managed JupyterLab workspaces, a Python SDK (`pip install openuba`), visual Rule Canvas, and ML model libraries (PyTorch, TensorFlow, NetworkX).
 
-*   ### 🤖 **[ThreatFlix AI Security Copilot](https://github.com/threatflix/threatflix)** [![GitHub stars](https://img.shields.io/github/stars/threatflix/threatflix?style=social&color=white)](https://github.com/threatflix/threatflix/stargazers)
+*   ### 🤖 **[ThreatFlix AI Security Copilot](https://github.com/threatflix/threatflix)** [![GitHub_Stars](https://img.shields.io/github/stars/threatflix/threatflix?style=social&color=white)](https://github.com/threatflix/threatflix/stargazers)
     AI-powered security copilot SDK utilizing Google Gemini and MITRE ATT&CK for UEBA ensemble modeling, graph similarity analysis, and deterministic attack chain narration.
 
-*   ### 🕸️ **[Idryx Identity Security Graph](https://github.com/idryx/idryx)** [![GitHub stars](https://img.shields.io/github/stars/idryx/idryx?style=social&color=white)](https://github.com/idryx/idryx/stargazers)
+*   ### 🕸️ **[Idryx Identity Security Graph](https://github.com/idryx/idryx)** [![GitHub_Stars](https://img.shields.io/github/stars/idryx/idryx?style=social&color=white)](https://github.com/idryx/idryx/stargazers)
     Identity Security Graph unifying human accounts, service principals, and AI agents into a single graph with 27 ITDR detectors and delegation chain resolution.
 
-*   ### 🔍 **[OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/security-analytics?style=social&color=white)](https://github.com/opensearch-project/security-analytics/stargazers)
+*   ### 🔍 **[OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/security-analytics?style=social&color=white)](https://github.com/opensearch-project/security-analytics/stargazers)
     Automated threat detection and security analytics plugin for OpenSearch supporting Sigma rule execution and user anomaly detectors.
 
-*   ### ⚡ **[Microsoft ITDR Detection Engine](https://github.com/nicolonsky/ITDR)** [![GitHub stars](https://img.shields.io/github/stars/nicolonsky/ITDR?style=social&color=white)](https://github.com/nicolonsky/ITDR/stargazers)
+*   ### ⚡ **[Microsoft ITDR Detection Engine](https://github.com/nicolonsky/ITDR)** [![GitHub_Stars](https://img.shields.io/github/stars/nicolonsky/ITDR?style=social&color=white)](https://github.com/nicolonsky/ITDR/stargazers)
     Curated detection modules and PowerShell playbooks designed for Microsoft Entra ID and Active Directory Identity Threat Detection & Response.
 
-*   ### 🔗 **[UEBA Blockchain Ledger](https://github.com/variationalkk/UEBA-Blockchain-Ledger)** [![GitHub stars](https://img.shields.io/github/stars/variationalkk/UEBA-Blockchain-Ledger?style=social&color=white)](https://github.com/variationalkk/UEBA-Blockchain-Ledger/stargazers)
+*   ### 🔗 **[UEBA Blockchain Ledger](https://github.com/variationalkk/UEBA-Blockchain-Ledger)** [![GitHub_Stars](https://img.shields.io/github/stars/variationalkk/UEBA-Blockchain-Ledger?style=social&color=white)](https://github.com/variationalkk/UEBA-Blockchain-Ledger/stargazers)
     Machine-learning anomaly detection system pairing Isolation Forest models with a hash-chained blockchain audit log for tamper-proof security alerts.
 
 ---
