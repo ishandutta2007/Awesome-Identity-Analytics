@@ -1,145 +1,115 @@
-# Awesome-Identity-Analytics
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Identity Analytics Banner" width="100%" />
+</p>
 
-Top Identity Analytics Platforms Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Identity-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Identity-Analytics?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Identity-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Identity-Analytics?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Identity-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Identity-Analytics?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on User & Entity Behavior Analytics (UEBA), Identity Threat Detection & Response (ITDR) & Insider Risk Management
-Last updated: September 2026
+# 🛡️ Awesome Identity Analytics
 
-This repository tracks notable SaaS platforms and open-source projects for Identity Analytics. These tools help security teams detect compromised accounts, insider threats, lateral movement, and privilege abuse by baselining normal user and entity behavior and flagging deviations.
+> **Curated List of SaaS Platforms & Open-Source Projects for User & Entity Behavior Analytics (UEBA), Identity Threat Detection & Response (ITDR) & Insider Risk Management.**
 
-Examples include Exabeam, Securonix, Microsoft Defender for Identity, Darktrace Identity, ManageEngine Log360, IBM QRadar UBA, LogRhythm UEBA, Microsoft Sentinel UEBA, ObserveIT, and Varonis (the category leaders).
+Welcome to **Awesome Identity Analytics**! This repository tracks premier SaaS products and active open-source projects for identity security analytics. These tools empower SOC teams, security engineers, and threat hunters to establish behavioral baselines, detect compromised credentials, mitigate insider threats, and prevent privilege escalation across cloud, SaaS, and on-premises environments.
 
-Open-source emphasis: This section is heavily expanded with every major active project for self-hosting, custom detection models, and transparent identity security workflows — ideal for SOC teams, security engineers, and organizations that need deep visibility into identity risk without vendor lock-in.
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 📚 Table of Contents
 
-Table of Contents
+- [📊 Market Overview](#-market-overview)
+- [🏢 SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-SaaS/Hosted Platforms
+---
 
-Open-Source GitHub Projects
+## 📊 Market Overview
 
-How to Contribute
+> 💡 **Market Size & Industry Structure:** The global Identity Analytics and User & Entity Behavior Analytics (UEBA) sector is estimated at **$2.6B – $4.3B in 2026** and projected to exceed **$10B+ by 2033** with a **25%–35% CAGR**. The market is currently **moderately fragmented with active consolidation**, featuring a blend of hyper-scaler security suites (Microsoft, Palo Alto Networks) alongside specialized best-of-breed UEBA & ITDR platforms (Varonis, Exabeam, Securonix).
 
-Disclaimer
+---
 
-SaaS/Hosted Platforms
+## 🏢 SaaS & Hosted Enterprise Platforms
 
-Exabeam
-Security intelligence and UEBA platform. Builds behavioral baselines for users and entities, assigns risk scores, and correlates events across SIEM and identity sources to detect credential compromise and insider threats.
+The following enterprise platforms provide managed, AI-driven UEBA and ITDR security capabilities. *Entries are sorted by parent company size / valuation / market capitalization in descending order.*
 
-Securonix
-Next-gen SIEM and UEBA platform with identity analytics. Uses machine learning and behavior analytics to detect advanced threats, insider risks, and account takeovers at enterprise scale.
+| 🏢 Platform | 📝 Description | 💼 Company Size / Valuation / Revenue | 💰 Starting Price | 🎁 Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Defender for Identity & Sentinel](https://microsoft.com)** | Cloud-native SIEM & ITDR monitoring Active Directory & Entra ID signals to block lateral movement and credential compromise. | Public ($3.3T Market Cap; $20B+ Security Segment Revenue) | Sentinel: $2.46 – $4.30 per GB ingested; Defender: $5.20/user/month | 30-day Microsoft Sentinel trial with 10 GB/day data ingestion free; 90-day M365 E5 trial |
+| **[IBM QRadar UBA / Palo Alto Networks](https://paloaltonetworks.com)** | User Behavior Analytics platform establishing baseline time-series anomaly detection and risk scoring across enterprise logs. | Public / Acquired ($110B Palo Alto Market Cap; $2.5B+ IBM Security Segment) | ~$10,400/year base QRadar SIEM subscription (UBA app module is free add-on) | 14-day QRadar Virtual Appliance free trial capped at 50 EPS |
+| **[Varonis](https://www.varonis.com)** | Data security platform with UEBA profiling permissions, file access, and user actions to prevent insider threats and exfiltration. | Public (NASDAQ: VRNS, ~$5.45B Market Cap; $688M TTM Revenue) | ~$15/user/month (~$1,800/year base platform subscription) | 30-day Data Risk Assessment free trial with complete automated directory audit |
+| **[Darktrace Identity](https://darktrace.com)** | Self-learning AI module detecting anomalous user and entity behavior across multi-cloud and SaaS directory infrastructure. | Acquired ($5.3B Acquisition Valuation by Thoma Bravo; ~$690M Revenue) | ~$30,000/year (~$2,500/month) base enterprise tier | 30-day Proof of Value (POV) trial running live on production traffic |
+| **[Exabeam & LogRhythm](https://www.exabeam.com)** | Security intelligence platform using behavioral baselines and automated risk scoring to detect account takeovers and privilege abuse. | Private ($2.4B Valuation; Series F $200M round; ~$268M combined revenue) | ~$25,000/year base cloud tier license | 30-day guided interactive cloud sandbox trial with sample telemetry dataset |
+| **[ObserveIT (Proofpoint ITM)](https://www.proofpoint.com)** | Insider threat management platform recording user sessions and evaluating activity to block unauthorized data exfiltration. | Private / Acquired (Part of Proofpoint / Thoma Bravo; ~$1.2B Parent Revenue) | ~$12/monitored user/month (minimum 100 users = ~$14,400/year base) | 14-day hosted Proofpoint ITM sandbox trial for up to 25 endpoint agents |
+| **[Securonix](https://www.securonix.com)** | Next-gen SIEM with cloud-native UEBA leveraging machine learning models to detect advanced insider risks and zero-day threats. | Private ($1.0B+ Unicorn Valuation; $1B growth investment by Vista Equity) | ~$30,000/year enterprise base cloud deployment license | 14-day cloud sandbox trial pre-loaded with threat detection models |
+| **[ManageEngine Log360](https://www.manageengine.com/log-management/)** | Integrated SIEM with UEBA using Markov Chains and predictive risk scoring for real-time user behavior anomaly detection. | Private (Zoho Corporation Division; $1.0B+ Zoho Group Revenue) | $245/year (On-Premises base for 10 log sources) / $1,095/year (Cloud base) | Free Edition available forever for up to 25 log sources; 30-day Cloud trial |
 
-Microsoft Defender for Identity
-Cloud-based identity threat detection for Active Directory and Azure AD. Monitors on-premises signals to detect lateral movement, privilege escalation, and compromised credentials.
+---
 
-Darktrace Identity
-AI-powered identity analytics module within the Darktrace ecosystem. Uses self-learning AI to detect anomalous behavior across cloud, SaaS, and on-premises identity infrastructure.
+## 🔓 Open-Source GitHub Projects
 
-ManageEngine Log360
-Integrated SIEM with UEBA capabilities. Establishes behavioral baselines for users and hosts, uses RPCA and Markov Chains for anomaly detection, and provides risk scoring with time/count/pattern-based deviations -
-2
--
-14
-.
+Open-source identity analytics engines allow security operations teams to deploy transparent detection logic, host custom ML models, and maintain data sovereignty without vendor lock-in. *Entries are sorted by GitHub star counts in descending order.*
 
-IBM QRadar UBA
-User Behavior Analytics application for QRadar SIEM. Builds risk profiles for users by combining disparate accounts into unified identities, with machine learning for time-series profiling and clustering -
-1
--
-8
-.
+*   ### 🛡️ **[Azure Sentinel Detection & UEBA Rules](https://github.com/Azure/Azure-Sentinel)** [![GitHub stars](https://img.shields.io/github/stars/Azure/Azure-Sentinel?style=social&color=white)](https://github.com/Azure/Azure-Sentinel/stargazers)
+    Official community repository containing detection rules, KQL queries, and UEBA anomaly analytics models for cloud identity monitoring.
 
-LogRhythm UEBA
-UEBA Module and CloudAI within the LogRhythm platform. AI Engine rules detect anomalies including abnormal file access, lateral movement, privilege escalation, and exfiltration with ML-backed detection -
-3
-.
+*   ### 🔑 **[Baton Identity Governance Toolkit](https://github.com/ConductorOne/baton)** [![GitHub stars](https://img.shields.io/github/stars/ConductorOne/baton?style=social&color=white)](https://github.com/ConductorOne/baton/stargazers)
+    Open-source identity governance toolkit to extract, normalize, and audit user permissions, roles, and access paths across SaaS and IaaS infrastructure.
 
-Microsoft Sentinel UEBA
-Cloud-native SIEM with built-in UEBA capabilities. Provides unified IdentityInfo tables, entity behavior analytics, and integration with the broader Defender portal for enriched investigations -
-4
-.
+*   ### 🏛️ **[Evolveum MidPoint](https://github.com/Evolveum/midpoint)** [![GitHub stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers)
+    Comprehensive open-source Identity Governance and Administration (IGA) system supporting automated user provisioning, identity synchronization, and compliance auditing.
 
-ObserveIT
-Insider threat monitoring platform (now Proofpoint). Records user sessions, analyzes behavior, and detects risky activities like data exfiltration and privilege abuse.
+*   ### 🔬 **[OpenUBA Framework](https://github.com/GACWR/OpenUBA)** [![GitHub stars](https://img.shields.io/github/stars/GACWR/OpenUBA?style=social&color=white)](https://github.com/GACWR/OpenUBA/stargazers)
+    Modular UEBA framework featuring managed JupyterLab workspaces, a Python SDK (`pip install openuba`), visual Rule Canvas, and ML model libraries (PyTorch, TensorFlow, NetworkX).
 
-Varonis
-Data security platform with UEBA capabilities. Analyzes file activity, permissions, and user behavior to detect insider threats, ransomware, and data exfiltration.
+*   ### 🤖 **[ThreatFlix AI Security Copilot](https://github.com/threatflix/threatflix)** [![GitHub stars](https://img.shields.io/github/stars/threatflix/threatflix?style=social&color=white)](https://github.com/threatflix/threatflix/stargazers)
+    AI-powered security copilot SDK utilizing Google Gemini and MITRE ATT&CK for UEBA ensemble modeling, graph similarity analysis, and deterministic attack chain narration.
 
-Open-Source GitHub Projects
+*   ### 🕸️ **[Idryx Identity Security Graph](https://github.com/idryx/idryx)** [![GitHub stars](https://img.shields.io/github/stars/idryx/idryx?style=social&color=white)](https://github.com/idryx/idryx/stargazers)
+    Identity Security Graph unifying human accounts, service principals, and AI agents into a single graph with 27 ITDR detectors and delegation chain resolution.
 
-OpenUBA
-Robust, flexible open-source UEBA framework for security analytics. Features managed JupyterLab workspaces, Python SDK (pip install openuba), visual flow-based rule builder (Rule Canvas), model library/marketplace with community-contributed models (sklearn, PyTorch, TensorFlow, NetworkX), JWT auth with RBAC, case management, and SIEM-agnostic architecture. ~513 stars, 280 forks -
-5
--
-16
-.
+*   ### 🔍 **[OpenSearch Security Analytics](https://github.com/opensearch-project/security-analytics)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/security-analytics?style=social&color=white)](https://github.com/opensearch-project/security-analytics/stargazers)
+    Automated threat detection and security analytics plugin for OpenSearch supporting Sigma rule execution and user anomaly detectors.
 
-ThreatFlix
-AI-powered security copilot SDK that detects, analyzes, and responds to application threats using Google Gemini and the MITRE ATT&CK framework. Deliberately separates deterministic investigation (evidence, attack chain) from ML-based assistance (UEBA ensemble, graph similarity, LLM narration) so models cannot rewrite facts. Student-built, research-grade -
-6
-.
+*   ### ⚡ **[Microsoft ITDR Detection Engine](https://github.com/nicolonsky/ITDR)** [![GitHub stars](https://img.shields.io/github/stars/nicolonsky/ITDR?style=social&color=white)](https://github.com/nicolonsky/ITDR/stargazers)
+    Curated detection modules and PowerShell playbooks designed for Microsoft Entra ID and Active Directory Identity Threat Detection & Response.
 
-Idryx
-Identity Security Graph that unifies humans, service accounts, keys, and AI agents in one graph. Features per-identity baselining, 27 detectors across ITDR/NHI/agents/least-privilege, delegation graph resolution with cycle protection, Agent-BOM (CycloneDX-shaped), remediation proposals (never mutates), and alert delivery to Slack/SIEM/OTLP. Apache-2.0 -
-7
--
-11
--
-17
-.
+*   ### 🔗 **[UEBA Blockchain Ledger](https://github.com/variationalkk/UEBA-Blockchain-Ledger)** [![GitHub stars](https://img.shields.io/github/stars/variationalkk/UEBA-Blockchain-Ledger?style=social&color=white)](https://github.com/variationalkk/UEBA-Blockchain-Ledger/stargazers)
+    Machine-learning anomaly detection system pairing Isolation Forest models with a hash-chained blockchain audit log for tamper-proof security alerts.
 
-UEBA Blockchain Ledger
-ML-based anomaly detection system with blockchain-backed tamper-proof audit logging. Isolation Forest model with per-user behavioral baselines, Streamlit dashboard, hash-chained ledger for alert integrity, and real-time desktop notifications. Built for Smart India Hackathon 2025 -
-10
-.
+---
 
-Baton
-Toolkit for adding identity governance to any application. Extracts, normalizes, and interacts with identity data (accounts, permissions, roles, groups) across SaaS and IaaS systems. Use cases include access reviews, SIEM exports, permission diffs, and effective access calculation. ~v0.4.5 -
-12
-.
+## 🤝 How to Contribute
 
-Additional Strong Open-Source Options
+Contributions from security researchers, SOC analysts, and identity engineers are warmly welcome! 
 
-Identity Governance: Baton (ConductorOne) for access auditing and permission analysis across GitHub, AWS, and other systems -
-12
-.
+1. **Fork** this repository.
+2. Create a feature branch (`git checkout -b add-new-identity-tool`).
+3. Update `README.md` with factual descriptions, official documentation links, and proper category placement.
+4. Open a **Pull Request** explaining your addition.
 
-Graph-Based Detection: Idryx for unified identity graphs spanning humans, service accounts, and AI agents with delegation chain resolution -
-17
-.
+---
 
-ML Frameworks: OpenUBA model library with Isolation Forest, PyTorch, TensorFlow, and NetworkX-based detection models -
-16
-.
+## 💖 Support & Community
 
-Audit Integrity: UEBA Blockchain Ledger for tamper-proof alert logging via hash-chained ledgers -
-10
-.
+Thank you for exploring and supporting **Awesome Identity Analytics**! If you find this resource helpful for your security team, SOC investigations, or research, please consider supporting the project:
 
-Frameworks for building custom systems: Combine OpenUBA for the core UEBA engine and model registry, Idryx for identity graph unification and ITDR detectors, Baton for identity governance data extraction, and PostgreSQL + GraphQL for persistence. Add JupyterLab for model development and Slack/webhooks for alerting.
+- 🌟 **Star** this repository on GitHub to increase its visibility.
+- 🔀 **Fork** and contribute your own identity security insights and tools.
+- 📢 **Share** this list with fellow security engineers and threat hunters on Twitter/X, LinkedIn, and Reddit.
+- ☕ **Sponsor the Maintainer:** If you'd like to support ongoing open-source maintenance, consider [buying a coffee on GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
-How to Contribute
+---
 
-Fork the repo.
+## 📈 Star History
 
-Add/edit entries in README.md (follow existing format).
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Identity-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Identity-Analytics&type=date&legend=top-left)
 
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+---
 
-Submit PR with a short explanation.
+## ⚠️ Disclaimer
 
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Identity analytics tools process sensitive user behavior data; ensure compliance with privacy regulations, employee monitoring laws, and data protection requirements.
-
-Self-hosted open-source solutions require proper security hardening, model validation, and regular tuning to minimize false positives.
-
-Made for SOC analysts, identity security engineers, threat hunters, and security architects.
-Let's make identity analytics more open, explainable, and effective.
+This repository is a community-curated collection intended for educational and informational security research purposes only. Identity analytics tools process highly sensitive telemetry; users must ensure full compliance with regional employee privacy laws, GDPR/CCPA regulations, and enterprise security policies prior to deployment.
