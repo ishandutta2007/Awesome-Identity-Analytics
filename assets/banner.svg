@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#1b1448"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+    <style>
+      @keyframes scan {
+        0% { transform: translateY(-20px); opacity: 0.2; }
+        50% { opacity: 0.7; }
+        100% { transform: translateY(320px); opacity: 0.2; }
+      }
+      @keyframes nodeGlow {
+        0%, 100% { r: 4px; opacity: 0.5; }
+        50% { r: 7px; opacity: 1; }
+      }
+      .bg-grid { opacity: 0.15; stroke: #4facfe; stroke-width: 1; }
+      .scanner-line { stroke: url(#text-grad); stroke-width: 2; opacity: 0.6; animation: scan 6s ease-in-out infinite; }
+      .animated-node { animation: nodeGlow 3s infinite ease-in-out; }
+      .node-1 { animation-delay: 0s; }
+      .node-2 { animation-delay: 1s; }
+      .node-3 { animation-delay: 2s; }
+      .main-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 52px; fill: url(#text-grad); }
+      .sub-title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #d1d5db; }
+      .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #a78bfa; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="350" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Grid pattern overlay -->
+  <g class="bg-grid">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="350"/>
+    <line x1="400" y1="0" x2="400" y2="350"/>
+    <line x1="600" y1="0" x2="600" y2="350"/>
+    <line x1="800" y1="0" x2="800" y2="350"/>
+    <line x1="1000" y1="0" x2="1000" y2="350"/>
+  </g>
+
+  <!-- Dynamic Security Graph Connections (Background) -->
+  <g opacity="0.35" stroke="#4facfe" stroke-width="1.5" fill="none">
+    <path d="M 100 80 Q 250 40 400 90 T 700 60 T 1050 100" stroke-dasharray="6,6"/>
+    <path d="M 150 280 Q 350 320 650 270 T 1100 290" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Dynamic Nodes -->
+  <circle cx="100" cy="80" r="5" fill="#00f2fe" class="animated-node node-1"/>
+  <circle cx="400" cy="90" r="5" fill="#7f00ff" class="animated-node node-2"/>
+  <circle cx="700" cy="60" r="5" fill="#00f2fe" class="animated-node node-3"/>
+  <circle cx="1050" cy="100" r="5" fill="#e100ff" class="animated-node node-1"/>
+
+  <!-- Scanning Line -->
+  <line x1="0" y1="0" x2="1200" y2="0" class="scanner-line"/>
+
+  <!-- Foreground Title and Content -->
+  <g transform="translate(60, 0)">
+    <!-- Pill Badge -->
+    <rect x="0" y="55" width="340" height="34" rx="17" fill="#7f00ff" opacity="0.25"/>
+    <rect x="0" y="55" width="340" height="34" rx="17" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="17" y="77" class="badge-text">🛡️ UEBA • ITDR • INSIDER RISK MANAGEMENT</text>
+
+    <!-- Main Title -->
+    <text x="0" y="160" class="main-title">Awesome Identity Analytics</text>
+
+    <!-- Subtitle Line 1 -->
+    <text x="0" y="215" class="sub-title">Curated List of SaaS Platforms &amp; Open-Source Projects for User &amp; Entity Behavior Analytics</text>
+
+    <!-- Subtitle Line 2 -->
+    <text x="0" y="250" class="sub-title" opacity="0.8" font-size="16px">Detect Compromised Accounts, Privilege Abuse &amp; Anomaly Signals Across Multi-Cloud IAM</text>
+
+    <!-- Bottom Tech Tags -->
+    <g transform="translate(0, 285)">
+      <rect x="0" y="0" width="130" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="12" y="17" fill="#38bdf8" font-family="sans-serif" font-size="12px" font-weight="600">⚡ Real-time ML</text>
+
+      <rect x="142" y="0" width="150" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="154" y="17" fill="#34d399" font-family="sans-serif" font-size="12px" font-weight="600">🔍 Identity Graphs</text>
+
+      <rect x="304" y="0" width="140" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="316" y="17" fill="#f472b6" font-family="sans-serif" font-size="12px" font-weight="600">🔐 Zero Trust AI</text>
+    </g>
+  </g>
+</svg>
